@@ -8,7 +8,7 @@ class Index extends Component {
         return (
             <div className="login-header">
                 <button className="back-button" onClick={this.props.onBackClicked}>
-                    <FontAwesome className='back-arrow' size='2x' name='chevron-left'/>
+                    <FontAwesome className='back-arrow' size='lg' name='chevron-left'/>
                 </button>
                 <div className="logo-wrapper">
                     <Bet25Logo/>

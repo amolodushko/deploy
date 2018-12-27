@@ -4,15 +4,15 @@
 }
 
 .log-ind-med-link {
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: none;
     margin-right: 10px;
 }
 
 .nem_id_logo {
-    width: 75px;
-    height: 17px;
+    width: 66px;
+    height: 14px;
     display: inline-block;
-    background: url(../images/nem-id.png) no-repeat 0px -29px;
+    background: url(../images/nem-id.png) no-repeat 0px -26px;
     background-size: cover;
 }

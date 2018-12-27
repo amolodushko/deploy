@@ -5,18 +5,20 @@
 }
 
 .form-fields{
-    background: white;
-    max-width: 441px;
-    box-shadow: 1px 1px 30px #DBDBDB;
-    padding: 45px 40px 22px 40px;
+    background: #ffffff;
+    max-width: 450px;
+    box-shadow: 1px 1px 30px #B7B7B7;
+    padding: 30px 30px 22px 30px;
+    width: 82%;
+    top: 22%;
     box-sizing: border-box;
+    position: relative;
 }
 
 .form-fields-wrapper {
     flex: 1 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     min-height: 300px;
 }
@@ -27,18 +29,17 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     min-height: 150px;
 }
 
 .login-field {
-    height: 65px;
     display: block;
     border: none;
     box-shadow: 0px 0px 26px #EEEEEE;
-    padding: 0px 20px 0px 50px;
-    font-size: 26px;
-    margin: 0 0 38px 0;
+    padding: 19px 18px 18px 40px;
+    font-size: 14px;
+    margin: 0 0 25px 0;
     color: #666666;
     box-sizing: border-box;
     width: 100%;
@@ -49,14 +50,14 @@
 }
 
 .user-name {
-    background: url(../images/login_icon.png) no-repeat 15px 18px;
+    background: url(../images/login-icon.png) no-repeat 12px 14px;
 }
 
 .password {
-    background: url(../images/password_icon.png) no-repeat 15px 20px;
+    background: url(../images/p_icon.png) no-repeat 12px 14px;
 }
 
 .forgot-password {
-    font-size: 20px;
+    font-size: 13px;
     float: right;
 }

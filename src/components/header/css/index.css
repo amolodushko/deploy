@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     padding: 14px 20px 14px 20px;
+    align-items: center;
 }
 
 .logo-wrapper {
@@ -12,12 +13,12 @@
 }
 
 .logo-wrapper .bet25-logo {
-    margin-left: -70px;
+    margin-left: -55px;
 }
 
 .back-button {
-    width: 60px;
-    height: 60px;
+    width: 25px;
+    height: 25px;
     background: transparent;
     border: none;
     position: relative;
