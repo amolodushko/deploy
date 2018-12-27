@@ -1,0 +1,33 @@
+.login-header {
+    display: flex;
+    flex-direction: row;
+    padding: 14px 20px 14px 20px;
+}
+
+.logo-wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo-wrapper .bet25-logo {
+    margin-left: -70px;
+}
+
+.back-button {
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.back-arrow {
+    color: #888888;
+}
+
+.back-button:hover .back-arrow {
+    color: #666666;
+}

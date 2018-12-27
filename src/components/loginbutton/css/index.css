@@ -1,0 +1,22 @@
+.login-button {
+    background: #FFA300;
+    color: #ffffff;
+    font-size: 26px;
+    text-align: center;
+    padding: 25px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 315px;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+
+.login-button:not(.disabled):hover{
+    background: #FF9000;
+}
+
+.login-button.disabled {
+    background: #f5c36a;
+    cursor: default;
+}

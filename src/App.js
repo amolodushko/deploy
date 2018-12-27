@@ -1,20 +1,28 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
 import './App.css';
+import Header from './components/header';
+import Form from './components/form';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          {/*<p>*/}
-            {/*Edit <code>src/App.js</code> and save to reload.*/}
-          {/*</p>*/}
-        </header>
-      </div>
-    );
-  }
+    render() {
+        return (
+            <React.Fragment>
+                <div className="page-main-cover"></div>
+                <div className="login-page-body">
+                    <Header onBackClicked={this.onBackClicked}/>
+                    <Form handleLogin={this.login}/>
+                </div>
+            </React.Fragment>
+        );
+    }
+
+    onBackClicked = () => {
+        console.log('Go Back!');
+    }
+
+    login = (name, password) => {
+        console.log('do login for', name, password);
+    }
 }
 
 export default App;
