@@ -1,15 +1,15 @@
 {
-  "main.css": "/deploy/static/css/main.00fdc14e.chunk.css",
-  "main.js": "/deploy/static/js/main.0a6d2ddd.chunk.js",
-  "main.js.map": "/deploy/static/js/main.0a6d2ddd.chunk.js.map",
+  "main.css": "/deploy/static/css/main.b78ec0ce.chunk.css",
+  "main.js": "/deploy/static/js/main.50ebae36.chunk.js",
+  "main.js.map": "/deploy/static/js/main.50ebae36.chunk.js.map",
   "static/js/1.01e5f90d.chunk.js": "/deploy/static/js/1.01e5f90d.chunk.js",
   "static/js/1.01e5f90d.chunk.js.map": "/deploy/static/js/1.01e5f90d.chunk.js.map",
   "runtime~main.js": "/deploy/static/js/runtime~main.dc0525f6.js",
   "runtime~main.js.map": "/deploy/static/js/runtime~main.dc0525f6.js.map",
   "static/media/App.css": "/deploy/static/media/main-bg.e1e4e999.jpg",
   "static/media/index.css": "/deploy/static/media/bet25-logo.fb22826f.png",
-  "static/css/main.00fdc14e.chunk.css.map": "/deploy/static/css/main.00fdc14e.chunk.css.map",
+  "static/css/main.b78ec0ce.chunk.css.map": "/deploy/static/css/main.b78ec0ce.chunk.css.map",
   "index.html": "/deploy/index.html",
-  "precache-manifest.78c32523e80a066d4255f9cd1b880c5b.js": "/deploy/precache-manifest.78c32523e80a066d4255f9cd1b880c5b.js",
+  "precache-manifest.f65dbe1f47b0f4513c7ed5e096bc269d.js": "/deploy/precache-manifest.f65dbe1f47b0f4513c7ed5e096bc269d.js",
   "service-worker.js": "/deploy/service-worker.js"
 }

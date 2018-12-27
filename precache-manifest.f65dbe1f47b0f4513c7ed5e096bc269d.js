@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0a6d2ddd671390679521",
-    "url": "/deploy/static/css/main.00fdc14e.chunk.css"
+    "revision": "50ebae3606858478a134",
+    "url": "/deploy/static/css/main.b78ec0ce.chunk.css"
   },
   {
-    "revision": "0a6d2ddd671390679521",
-    "url": "/deploy/static/js/main.0a6d2ddd.chunk.js"
+    "revision": "50ebae3606858478a134",
+    "url": "/deploy/static/js/main.50ebae36.chunk.js"
   },
   {
     "revision": "01e5f90d6bba128646db",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/deploy/static/media/bet25-logo.fb22826f.png"
   },
   {
-    "revision": "8c298670d8243cb1e08df739e01a7076",
+    "revision": "51d89885a9837ab62b4ba618dade179c",
     "url": "/deploy/index.html"
   }
 ];
