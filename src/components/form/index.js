@@ -3,11 +3,6 @@ import './css/index.css';
 import LoginButton from '../loginbutton';
 import NemIdLogin from '../nemid';
 
-// import LoginFields from './LoginFields';
-// import LoginButton from './LoginButton';
-// import NemIdLogin from './NemIdLogin';
-
-
 class Index extends Component {
     constructor() {
         super();
