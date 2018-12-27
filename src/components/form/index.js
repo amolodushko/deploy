@@ -22,13 +22,15 @@ class Index extends Component {
 
         return (
             <div className="login-form-wrapper">
-                <div className="form-fields-wrapper">
-                    <input onChange={this.onFieldChange} placeholder="Brugernavn" className="user-name login-field"
-                           name="name" value={name}/>
-                    <input onChange={this.onFieldChange} placeholder="Kodeord" className="password login-field"
-                           name="password" value={password}/>
-                    <a href="#" className="forgot-password">Glemt kodeord?</a>
-                </div>
+              <div className="form-fields-wrapper">
+                  <div className="form-fields">
+                      <input onChange={this.onFieldChange} placeholder="Brugernavn" className="user-name login-field"
+                             name="name" value={name}/>
+                      <input onChange={this.onFieldChange} placeholder="Kodeord" className="password login-field"
+                             name="password" value={password}/>
+                      <a href="#" className="forgot-password">Glemt kodeord?</a>
+                  </div>
+              </div>
 
                 <div className="login-actions-wrapper">
                     <LoginButton onButtonClick={this.onButtonClick} disabled={!this.isValid(name, password)}/>
